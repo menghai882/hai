@@ -2,47 +2,33 @@
 const resources = [
     // 影视资源
     {
-        title: "豆瓣电影",
-        description: "中国最大的电影社区和评分网站",
-        url: "https://movie.douban.com",
+        title: "免费电影",
+        description: "高清在线影视资源",
+        url: "https://gaze.run/",
         icon: "bi bi-film",
         category: "影视"
     },
     {
-        title: "IMDb",
-        description: "全球最大的电影数据库",
-        url: "https://www.imdb.com",
-        icon: "bi bi-camera-reels",
-        category: "影视"
-    },
-    {
-        title: "Netflix",
-        description: "全球领先的流媒体平台",
-        url: "https://www.netflix.com",
+        title: "黑猫影视",
+        description: "热门影视剧集在线观看",
+        url: "https://heimaotv.vip/",
         icon: "bi bi-tv",
         category: "影视"
     },
 
     // 动漫资源
     {
-        title: "Bilibili",
-        description: "中国领先的年轻人文化社区",
-        url: "https://www.bilibili.com",
+        title: "囧次元",
+        description: "免费动漫在线观看",
+        url: "https://www.jcydm.org/?ref=www.9eip.com",
         icon: "bi bi-play-btn",
         category: "动漫"
     },
     {
-        title: "AcFun",
-        description: "中国最早的弹幕视频网站",
-        url: "https://www.acfun.cn",
+        title: "Anfuns",
+        description: "优质动漫资源",
+        url: "https://www.anfuns.cc/",
         icon: "bi bi-play-circle",
-        category: "动漫"
-    },
-    {
-        title: "MyAnimeList",
-        description: "全球最大的动漫数据库",
-        url: "https://myanimelist.net",
-        icon: "bi bi-joystick",
         category: "动漫"
     },
 
@@ -55,17 +41,31 @@ const resources = [
         category: "工具"
     },
     {
-        title: "Canva",
-        description: "在线设计工具",
-        url: "https://www.canva.com",
-        icon: "bi bi-palette",
+        title: "樱花茶",
+        description: "AI聊天助手",
+        url: "https://gpt.cherrychat.org/home",
+        icon: "bi bi-chat-dots",
         category: "工具"
     },
     {
-        title: "Notion",
-        description: "一体化工作空间",
-        url: "https://www.notion.so",
-        icon: "bi bi-journal-text",
+        title: "在线格式转换",
+        description: "支持多种文件格式转换",
+        url: "https://www.alltoall.net/",
+        icon: "bi bi-file-earmark-arrow-up",
+        category: "工具"
+    },
+    {
+        title: "设计导航",
+        description: "设计师常用工具导航",
+        url: "https://hao.uisdc.com/",
+        icon: "bi bi-compass",
+        category: "工具"
+    },
+    {
+        title: "在线抠图",
+        description: "AI智能背景去除",
+        url: "https://www.remove.bg/zh",
+        icon: "bi bi-image",
         category: "工具"
     }
 ];
