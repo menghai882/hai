@@ -1,0 +1,81 @@
+/* 基础样式 */
+body {
+    font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 导航栏样式 */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* 主内容区域 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 资源卡片容器 */
+#resource-grid {
+    margin-top: 30px;
+}
+
+/* 资源卡片样式 */
+.resource-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
+}
+
+/* 分类筛选按钮样式 */
+#category-filter {
+    margin-bottom: 20px;
+}
+
+#category-filter .btn {
+    margin: 5px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#category-filter .btn.active {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+#category-filter .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+    }
+    
+    #category-filter .btn {
+        margin: 2px;
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+}
